@@ -12,7 +12,13 @@ class Program(var instructionList: List[Instruction]) {
 
   }
 
-  def simplifyIf = {
+  def simplifyIf = { // TODO: terminar esta funcion y el simplify store, load, swap
     var list = this.instructionList.map { (instruction) => instruction.print() }.filter { (ins) => ins.startsWith("IF") }
   }
+
+  def simplifyStore ={}
+
+  def simplifyLoad = {}
+
+  def simplifySwap = {}
 }
