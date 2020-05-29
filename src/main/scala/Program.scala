@@ -1,5 +1,4 @@
 class Program(var instructionList: List[Instruction]) {
-
   def execute(microprocessor: Microprocessor): Unit = instructionList.foreach(
     instruction => instruction.visitMicroprocessor(microprocessor)
   )

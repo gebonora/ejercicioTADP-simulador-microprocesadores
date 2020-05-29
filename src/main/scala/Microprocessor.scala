@@ -1,5 +1,3 @@
-
-
 class Microprocessor() {
   var registerA: Int = 0
   var registerB: Int = 0
